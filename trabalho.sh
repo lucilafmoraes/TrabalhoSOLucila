@@ -1,11 +1,11 @@
 #!/bin/bash
 
 //1
-sudo groupadd aluno
-sudo groupadd professor
-sudo groupadd gerente
+sudo addgroup aluno
+sudo addgroup professor
+sudo addgroup gerente
 //2
-sudo mkdir -p /srv
+sudo mkdir /srv
 sudo chown root:gerente /srv
 sudo chmod 750 /srv
 //3
